@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="Mordern/Mordern.vcxproj" Id="7d48e414-1558-4ab2-89c7-b9ae08b76634" />
+</Solution>
