@@ -49,6 +49,21 @@ void outputContactList(const Infos::ContactInfo contacts[], int contactSize) {
 		std::cout << i << ":" << contacts[i].name << "\n"; // std::endl은 flush를 유발하므로 성능 저하가 있을 수 있음
 	}
 }
+
+// 객체로 만들었으면 이것보다 더 깔끔했을텐데, 지금은 이렇게 매개변수가 많은 더러운 코드다
+int removeContactByIndex(Infos::ContactInfo contacts[], int &contactSize, int index) {
+	if (index < 0 || index >= contactSize) {
+		std::cout << "Invalid index. No contact removed.\n";
+		return contactSize;
+	}
+	for (int i = index; i < contactSize - 1; i++) {
+		contacts[i] = contacts[i + 1];
+	}
+	contactSize--;
+	std::cout << "Contact removed successfully.\n";
+	return contactSize; // 참조므로 필요없으나 일관성을 위해 반환
+}
+
 void runOwnerMenu(Infos::OwnerInfo &owner);
 void runContactMenu(Infos::ContactInfo contacts[], int contactSize);
 
