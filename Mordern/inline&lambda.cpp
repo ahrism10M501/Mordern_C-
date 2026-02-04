@@ -8,7 +8,7 @@ class Chulsoo {
 			std::cout << "Chulsoo is eating " << steakWeight << " grams of steak (inline)." << std::endl;
 		}
 };
-
+/*
 int main(void) {
 	Chulsoo chulsoo;
 	chulsoo.Eat(500);
@@ -27,9 +27,9 @@ int main(void) {
 
 	chulsoo.count = 0;
 	for (int i = 0; i < 5; ++i) {
-		/*[=] (int steakWeight)  { 
-			std::cout << "lambda with capture by value " << steakWeight << ", count: " << chulsoo.count++ << std::endl; 
-			} (1000);*/ // error: chulsoo is captured by value, but count is modified
+		// [=] (int steakWeight)  { 
+			// std::cout << "lambda with capture by value " << steakWeight << ", count: " << chulsoo.count++ << std::endl; 
+			// } (1000); // error: chulsoo is captured by value, but count is modified
 		[=](int steakWeight) mutable {
 			std::cout << "lambda with capture by value " << steakWeight << ", count: " << chulsoo.count++ << std::endl;
 			} (1000);
@@ -58,7 +58,7 @@ int main(void) {
 void Chulsoo::Eat(int steakWeight) {
 	std::cout << "Chulsoo is eating " << steakWeight << " grams of steak." << std::endl;
 }
-
+*/
 // 일반 함수는 호출 형식으로, 인라인 함수는 코드 삽입으로
 // 즉, 일반 함수는 호출 오버헤드, 호출 시 내부 jmp 문으로 왔다갔다 하느라 시간이 들지만
 // 인라인은 곧바로 그아래 대체되므로 호출 오버헤드가 없다

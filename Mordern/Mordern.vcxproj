@@ -23,7 +23,14 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="address_book.cpp" />
+    <ClCompile Include="dynamicMemory.cpp" />
+    <ClCompile Include="factory_method.cpp" />
     <ClCompile Include="inline&amp;lambda.cpp" />
+    <ClCompile Include="rpg_role_factory_prac.cpp" />
+    <ClCompile Include="smart_ptr.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="vcpkg.json" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>18.0</VCProjectVersion>
@@ -77,6 +84,9 @@
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Label="Vcpkg">
+    <VcpkgEnableManifest>true</VcpkgEnableManifest>
+  </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
