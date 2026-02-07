@@ -140,6 +140,7 @@ void runGame(IGame* game, const std::string& name) {
 	game->play();
 }
 
+/*
 int main() {
 	WarriorGame wGame;
 	wGame.create("Conan");
@@ -154,3 +155,4 @@ int main() {
 
 	return 0;
 }
+*/

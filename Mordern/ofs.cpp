@@ -14,6 +14,7 @@ namespace Space2 {
 	int value = 2;
 }
 
+/*
 int main(void) {
 #if EXAMPLE == 1
 	ofstream ofs;
@@ -50,3 +51,4 @@ int main(void) {
 #endif
 	return 0;
 }
+*/

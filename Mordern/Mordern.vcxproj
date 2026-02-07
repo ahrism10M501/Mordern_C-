@@ -23,11 +23,23 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="address_book.cpp" />
+    <ClCompile Include="class_template.cpp" />
+    <ClCompile Include="stl_deque.cpp" />
     <ClCompile Include="dynamicMemory.cpp" />
+    <ClCompile Include="explicit_cast.cpp" />
     <ClCompile Include="factory_method.cpp" />
+    <ClCompile Include="fn_template.cpp" />
     <ClCompile Include="inline&amp;lambda.cpp" />
+    <ClCompile Include="ofs.cpp" />
     <ClCompile Include="rpg_role_factory_prac.cpp" />
     <ClCompile Include="smart_ptr.cpp" />
+    <ClCompile Include="stl_forward_list.cpp" />
+    <ClCompile Include="stl_list.cpp" />
+    <ClCompile Include="stl_priority_queue.cpp" />
+    <ClCompile Include="stl_queue.cpp" />
+    <ClCompile Include="stl_vector.cpp" />
+    <ClCompile Include="stl_vector2.cpp" />
+    <ClCompile Include="stl_array.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="vcpkg.json" />

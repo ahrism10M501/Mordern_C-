@@ -1,3 +1,4 @@
+/*
 int main() {
 	double pi = 3.14159;
 	int int_pi = static_cast<int>(pi);
@@ -11,3 +12,4 @@ int main() {
 	return 0;
 
 }
+*/
