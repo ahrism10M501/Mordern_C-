@@ -13,6 +13,15 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Source Files\basic">
+      <UniqueIdentifier>{a86f18e3-f5bf-4d93-8c41-8310f93d070c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\stls">
+      <UniqueIdentifier>{ae3da0ce-af74-49e8-a04c-1025f4ad0584}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\multithreading">
+      <UniqueIdentifier>{71be37f0-57da-4406-a1ff-51e5071903c3}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Infos.h">
@@ -21,58 +30,82 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="address_book.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="inline&amp;lambda.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="dynamicMemory.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="smart_ptr.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="factory_method.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="rpg_role_factory_prac.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\basic</Filter>
     </ClCompile>
     <ClCompile Include="class_template.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\basic</Filter>
+    </ClCompile>
+    <ClCompile Include="dynamicMemory.cpp">
+      <Filter>Source Files\basic</Filter>
     </ClCompile>
     <ClCompile Include="explicit_cast.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\basic</Filter>
+    </ClCompile>
+    <ClCompile Include="factory_method.cpp">
+      <Filter>Source Files\basic</Filter>
     </ClCompile>
     <ClCompile Include="fn_template.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\basic</Filter>
+    </ClCompile>
+    <ClCompile Include="inline&amp;lambda.cpp">
+      <Filter>Source Files\basic</Filter>
     </ClCompile>
     <ClCompile Include="ofs.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\basic</Filter>
     </ClCompile>
-    <ClCompile Include="stl_vector.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="rpg_role_factory_prac.cpp">
+      <Filter>Source Files\basic</Filter>
     </ClCompile>
-    <ClCompile Include="stl_vector2.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="stl_deque.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="stl_list.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="smart_ptr.cpp">
+      <Filter>Source Files\basic</Filter>
     </ClCompile>
     <ClCompile Include="stl_array.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\stls</Filter>
+    </ClCompile>
+    <ClCompile Include="stl_deque.cpp">
+      <Filter>Source Files\stls</Filter>
     </ClCompile>
     <ClCompile Include="stl_forward_list.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\stls</Filter>
     </ClCompile>
-    <ClCompile Include="stl_queue.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="stl_list.cpp">
+      <Filter>Source Files\stls</Filter>
+    </ClCompile>
+    <ClCompile Include="stl_map.cpp">
+      <Filter>Source Files\stls</Filter>
+    </ClCompile>
+    <ClCompile Include="stl_multimap.cpp">
+      <Filter>Source Files\stls</Filter>
     </ClCompile>
     <ClCompile Include="stl_priority_queue.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\stls</Filter>
+    </ClCompile>
+    <ClCompile Include="stl_queue.cpp">
+      <Filter>Source Files\stls</Filter>
+    </ClCompile>
+    <ClCompile Include="stl_set.cpp">
+      <Filter>Source Files\stls</Filter>
+    </ClCompile>
+    <ClCompile Include="stl_stack.cpp">
+      <Filter>Source Files\stls</Filter>
+    </ClCompile>
+    <ClCompile Include="stl_vector.cpp">
+      <Filter>Source Files\stls</Filter>
+    </ClCompile>
+    <ClCompile Include="stl_vector2.cpp">
+      <Filter>Source Files\stls</Filter>
+    </ClCompile>
+    <ClCompile Include="thread1.cpp">
+      <Filter>Source Files\multithreading</Filter>
+    </ClCompile>
+    <ClCompile Include="thread2.cpp">
+      <Filter>Source Files\multithreading</Filter>
+    </ClCompile>
+    <ClCompile Include="thread3.cpp">
+      <Filter>Source Files\multithreading</Filter>
+    </ClCompile>
+    <ClCompile Include="mutex1.cpp">
+      <Filter>Source Files\multithreading</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
